@@ -1,0 +1,33 @@
+.container{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+
+.container__inner__inner{
+    margin: 0 auto;
+    max-width: 1600px;
+    border: solid 0.5px;
+    border-color: rgba(103,120,138, 0.2);
+}
+
+
+.container__inner__up {
+    padding-top: 96px;
+}
+
+.container__inner__down {
+    padding-bottom: 96px;
+}
+
+
+@media (max-width: 1024px){
+    .container__inner__up {
+        padding-top: 48px;
+    }
+    
+    .container__inner__down {
+        padding-bottom: 48px;
+    }
+    }

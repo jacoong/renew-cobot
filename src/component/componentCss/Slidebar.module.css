@@ -1,0 +1,18 @@
+.container{
+}
+
+.container__card_slider{
+    display: flex;
+    justify-content: left;
+    overflow: auto;
+}
+
+.container__introducebar{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.container__introducebar svg{
+    margin-right:5px ;
+}

@@ -1,0 +1,8 @@
+.container{
+    background-color: aqua;
+}
+
+.container__card_slider{
+    display: flex;
+    overflow: auto;
+}

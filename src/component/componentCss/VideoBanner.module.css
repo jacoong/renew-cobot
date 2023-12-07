@@ -1,0 +1,60 @@
+.container{
+    width: 100%;
+    height: 35vw;
+    max-height: 950px;
+    object-fit: cover;
+}
+
+
+.container__video{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.container__video video{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container__letterContainer{
+    padding-left: 10vw;
+    padding-top: 10vw;
+    height: 70%;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    color: aliceblue;
+}
+
+@media (max-width: 735px) {
+    .container__letterContainer {
+        padding-top: 25vw;
+    }
+  }
+
+  
+
+.container__letterContainer__container{
+    width: 400px;
+    height: 80%;
+}
+
+.container__letterContainer__container__title{
+    font-size: 45px;
+    font-weight:200;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+
+.container__letterContainer__container__paragragh{
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.button__font_Size{
+    font-size: 15px;
+}

@@ -1,0 +1,98 @@
+.button{
+    background-color: rgb(29,155,240,1);
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 24px; /* border-radius 값 조정 */
+    cursor: pointer;
+    padding: 10px 18px;
+    font-weight: 800;
+}
+
+.button:focus{
+    background-color: #d2e3fc;
+}
+
+.f-white{
+    color:white
+}
+
+.thin{
+font-weight: 300;
+}
+
+
+.bold{
+font-weight: 500;
+}
+
+.f-black{
+    color:black
+}
+
+.f-blue{
+    /* color:rgb(29,155,240,1); */
+    color:#0064E0;
+}
+
+
+.b-blue{
+ /* background-color: rgb(29,155,240,1); */
+ background-color:   #0064E0;
+
+ transition: background-color 0.3s ease-in-out;
+}
+
+.b-blue:hover{
+    /* background-color: rgb(26,140,216,1); */
+    background-color: #0050B4;
+}
+
+.b-red{
+    background-color: rgb(244, 33, 46);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.b-red:hover{
+    background-color: #DC1E29;
+}
+
+.b-black{
+    background-color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.b-black:hover{
+    background-color: rgb(0,0,0,0.8.5);
+}
+
+
+.b-gary{
+    background-color: gray ;
+    transition: background-color 0.3s ease-in-out;
+    cursor: default;
+}
+
+.b-white{
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.b-white:hover{
+    background-color:#d2e3fc
+}
+
+.small{
+    box-sizing: border-box;
+}
+.middle{
+ width: 17rem;
+}
+
+.large{
+    height: 3rem;
+    width: 100%;
+}
